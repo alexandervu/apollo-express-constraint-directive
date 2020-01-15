@@ -1,0 +1,49 @@
+{
+  "name": "apollo-express-constraint-directive",
+  "version": "1.0.0",
+  "description": "Check the GraphQL input fields with directives",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test:unit": "jest"
+  },
+  "author": "Alexander Vu <alexander.vu.tuyet@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexanderVu/apollo-express-constraint-directive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderVu/apollo-express-constraint-directive/issues"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "express",
+    "validate",
+    "validation",
+    "validator",
+    "directive",
+    "constraint"
+  ],
+  "devDependencies": {
+    "apollo-server-testing": "^2.9.16",
+    "body-parser": "^1.19.0",
+    "coveralls": "^3.0.9",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "jest": "^24.9.0",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.9.16",
+    "validator": "^12.1.0"
+  },
+  "peerDependencies": {
+    "graphql": "^14.5.8"
+  }
+}
