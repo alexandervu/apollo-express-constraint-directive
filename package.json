@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "apollo-server-express": "^2.22.2",
-    "validator": "^13.5.2"
+    "validator": "^13.7.0"
   },
   "peerDependencies": {
     "graphql": "14.7.0"
